@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoDetails" customModule="PhotoStream" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundHeader" destination="eMb-I4-W0S" id="YSs-iR-FhN"/>
+                <outlet property="contentView" destination="mPc-KD-9VW" id="4T1-Fb-JbK"/>
+                <outlet property="imageView" destination="Z81-MK-IU3" id="YBb-BV-zU8"/>
+                <outlet property="likeView" destination="BBB-bF-7gZ" id="LyS-Hx-lWg"/>
+                <outlet property="nameLabel" destination="uMN-KD-aBi" id="Izy-Xi-WXn"/>
+                <outlet property="profileImageView" destination="RFv-eq-m6L" id="Tpy-jf-HTP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mPc-KD-9VW">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Z81-MK-IU3">
+                    <rect key="frame" x="0.0" y="0.0" width="369" height="896"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <view alpha="0.69999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMb-I4-W0S">
+                    <rect key="frame" x="0.0" y="0.0" width="369" height="74"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMN-KD-aBi">
+                    <rect key="frame" x="80.5" y="27.5" width="34.5" height="18.5"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RFv-eq-m6L">
+                    <rect key="frame" x="6" y="3.5" width="66.5" height="66.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="RFv-eq-m6L" secondAttribute="height" multiplier="1:1" id="nRm-Gi-WKr"/>
+                    </constraints>
+                </imageView>
+                <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBB-bF-7gZ">
+                    <rect key="frame" x="329" y="856" width="35" height="35"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unliked" translatesAutoresizingMaskIntoConstraints="NO" id="97D-jX-Jdo">
+                            <rect key="frame" x="8" y="8" width="19" height="19"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Z95-KX-Lot"/>
+                        <constraint firstItem="97D-jX-Jdo" firstAttribute="leading" secondItem="BBB-bF-7gZ" secondAttribute="leading" constant="8" id="bXW-pz-obk"/>
+                        <constraint firstAttribute="bottom" secondItem="97D-jX-Jdo" secondAttribute="bottom" constant="8" id="nJK-nj-LcF"/>
+                        <constraint firstAttribute="trailing" secondItem="97D-jX-Jdo" secondAttribute="trailing" constant="8" id="nlN-BM-boc"/>
+                        <constraint firstItem="97D-jX-Jdo" firstAttribute="top" secondItem="BBB-bF-7gZ" secondAttribute="top" constant="8" id="uS6-si-Ywh"/>
+                        <constraint firstAttribute="width" secondItem="BBB-bF-7gZ" secondAttribute="height" multiplier="1:1" id="w7O-Yg-kiM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="uMN-KD-aBi" firstAttribute="leading" secondItem="RFv-eq-m6L" secondAttribute="trailing" constant="8" id="2KD-JG-zoN"/>
+                <constraint firstAttribute="bottom" secondItem="BBB-bF-7gZ" secondAttribute="bottom" constant="5" id="52T-CG-iuj"/>
+                <constraint firstAttribute="trailing" secondItem="BBB-bF-7gZ" secondAttribute="trailing" constant="5" id="8rB-0H-qhn"/>
+                <constraint firstAttribute="bottom" secondItem="Z81-MK-IU3" secondAttribute="bottom" id="9PK-0I-b8o"/>
+                <constraint firstItem="Z81-MK-IU3" firstAttribute="trailing" secondItem="mPc-KD-9VW" secondAttribute="trailing" id="L7J-Z1-3p6"/>
+                <constraint firstItem="Z81-MK-IU3" firstAttribute="leading" secondItem="mPc-KD-9VW" secondAttribute="leading" id="Pac-k8-Loi"/>
+                <constraint firstItem="eMb-I4-W0S" firstAttribute="leading" secondItem="mPc-KD-9VW" secondAttribute="leading" id="SHC-bS-eSU"/>
+                <constraint firstItem="uMN-KD-aBi" firstAttribute="centerY" secondItem="eMb-I4-W0S" secondAttribute="centerY" id="UsX-lU-ZG2"/>
+                <constraint firstItem="eMb-I4-W0S" firstAttribute="top" secondItem="mPc-KD-9VW" secondAttribute="top" id="WeC-Qz-v6k"/>
+                <constraint firstItem="RFv-eq-m6L" firstAttribute="centerY" secondItem="eMb-I4-W0S" secondAttribute="centerY" id="ZOs-ln-MtL"/>
+                <constraint firstItem="eMb-I4-W0S" firstAttribute="height" secondItem="mPc-KD-9VW" secondAttribute="width" multiplier="0.2" priority="999" id="bQU-XH-OOi"/>
+                <constraint firstAttribute="top" secondItem="Z81-MK-IU3" secondAttribute="top" id="gPY-fl-zM3"/>
+                <constraint firstItem="RFv-eq-m6L" firstAttribute="leading" secondItem="mPc-KD-9VW" secondAttribute="leading" constant="6" id="jdz-tx-sBW"/>
+                <constraint firstItem="RFv-eq-m6L" firstAttribute="height" secondItem="eMb-I4-W0S" secondAttribute="height" multiplier="0.9" id="pE1-vr-i64"/>
+                <constraint firstItem="eMb-I4-W0S" firstAttribute="height" relation="lessThanOrEqual" secondItem="mPc-KD-9VW" secondAttribute="height" multiplier="0.2" id="s1N-Xr-Ucb"/>
+                <constraint firstAttribute="trailing" secondItem="eMb-I4-W0S" secondAttribute="trailing" id="uW0-AM-Rgd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="EBo-lD-VPS"/>
+            <variation key="heightClass=regular">
+                <mask key="constraints">
+                    <include reference="bQU-XH-OOi"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=regular">
+                <mask key="constraints">
+                    <include reference="pE1-vr-i64"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="96.376811594202906" y="144.64285714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="placeholder_icon" width="50" height="50"/>
+        <image name="unliked" width="50" height="45"/>
+    </resources>
+</document>
