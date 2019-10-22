@@ -30,8 +30,9 @@
 		257E0FCF2354EC6400176D99 /* fakeUser_3l.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 257E0FBD2354EC6400176D99 /* fakeUser_3l.jpeg */; };
 		257E0FD02354EC6400176D99 /* fakeUser_4l.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 257E0FBE2354EC6400176D99 /* fakeUser_4l.jpeg */; };
 		257E0FD12354EC6400176D99 /* fakeUser_5l.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 257E0FBF2354EC6400176D99 /* fakeUser_5l.jpeg */; };
-		257E0FE4235508AD00176D99 /* MVNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257E0FE02355087C00176D99 /* MVNetworking.framework */; };
-		257E0FE5235508AD00176D99 /* MVNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 257E0FE02355087C00176D99 /* MVNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		258DBB9F235F9D0D00459F6F /* MVNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258DBB95235F9BD000459F6F /* MVNetworking.framework */; };
+		258DBBA0235F9D0D00459F6F /* MVNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 258DBB95235F9BD000459F6F /* MVNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		258DBBAB235FA7E900459F6F /* MVNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258DBBAA235FA7E900459F6F /* MVNetworking.framework */; };
 		25B2F60D234DE1A7003695A8 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B2F60C234DE1A7003695A8 /* HexColor.swift */; };
 		25B2F610234DFAB3003695A8 /* PhotoStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B2F60E234DFAB3003695A8 /* PhotoStreamViewController.swift */; };
 		25B2F611234DFAB3003695A8 /* PhotoStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B2F60F234DFAB3003695A8 /* PhotoStreamViewController.xib */; };
@@ -73,16 +74,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		257E0FDF2355087C00176D99 /* PBXContainerItemProxy */ = {
+		258DBB94235F9BD000459F6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 257E0FDA2355087C00176D99 /* MVNetworking.xcodeproj */;
+			containerPortal = 258DBB85235F9BD000459F6F /* MVNetworking.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2576F026234C7F6C006C9E88;
 			remoteInfo = MVNetworking;
 		};
-		257E0FE12355087C00176D99 /* PBXContainerItemProxy */ = {
+		258DBB96235F9BD000459F6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 257E0FDA2355087C00176D99 /* MVNetworking.xcodeproj */;
+			containerPortal = 258DBB85235F9BD000459F6F /* MVNetworking.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2576F02F234C7F6C006C9E88;
 			remoteInfo = MVNetworkingTests;
@@ -103,7 +104,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				257E0FE5235508AD00176D99 /* MVNetworking.framework in Embed Frameworks */,
+				258DBBA0235F9D0D00459F6F /* MVNetworking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +135,8 @@
 		257E0FBD2354EC6400176D99 /* fakeUser_3l.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fakeUser_3l.jpeg; path = images/fakeUser_3l.jpeg; sourceTree = SOURCE_ROOT; };
 		257E0FBE2354EC6400176D99 /* fakeUser_4l.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fakeUser_4l.jpeg; path = images/fakeUser_4l.jpeg; sourceTree = SOURCE_ROOT; };
 		257E0FBF2354EC6400176D99 /* fakeUser_5l.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fakeUser_5l.jpeg; path = images/fakeUser_5l.jpeg; sourceTree = SOURCE_ROOT; };
-		257E0FDA2355087C00176D99 /* MVNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MVNetworking.xcodeproj; sourceTree = "<group>"; };
+		258DBB85235F9BD000459F6F /* MVNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MVNetworking.xcodeproj; sourceTree = "<group>"; };
+		258DBBAA235FA7E900459F6F /* MVNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVNetworking.framework; path = "Build/Products/Debug-iphoneos/MVNetworking.framework"; sourceTree = "<group>"; };
 		25B2F60C234DE1A7003695A8 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		25B2F60E234DFAB3003695A8 /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStreamViewController.swift; sourceTree = "<group>"; };
 		25B2F60F234DFAB3003695A8 /* PhotoStreamViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoStreamViewController.xib; sourceTree = "<group>"; };
@@ -184,7 +186,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257E0FE4235508AD00176D99 /* MVNetworking.framework in Frameworks */,
+				258DBB9F235F9D0D00459F6F /* MVNetworking.framework in Frameworks */,
+				258DBBAB235FA7E900459F6F /* MVNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,28 +201,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		257E0F9B23547BE700176D99 /* MVNetworking */ = {
+		257E0FE3235508AD00176D99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				257E0FDA2355087C00176D99 /* MVNetworking.xcodeproj */,
+				258DBBAA235FA7E900459F6F /* MVNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		258DBB84235F9BD000459F6F /* MVNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				258DBB85235F9BD000459F6F /* MVNetworking.xcodeproj */,
 			);
 			path = MVNetworking;
 			sourceTree = "<group>";
 		};
-		257E0FDB2355087C00176D99 /* Products */ = {
+		258DBB86235F9BD000459F6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				257E0FE02355087C00176D99 /* MVNetworking.framework */,
-				257E0FE22355087C00176D99 /* MVNetworkingTests.xctest */,
+				258DBB95235F9BD000459F6F /* MVNetworking.framework */,
+				258DBB97235F9BD000459F6F /* MVNetworkingTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		257E0FE3235508AD00176D99 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		25B2F605234DE195003695A8 /* Utilities */ = {
@@ -262,7 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				25D6E3F9234CC27500228788 /* AppDelegate.swift */,
-				257E0F9B23547BE700176D99 /* MVNetworking */,
+				258DBB84235F9BD000459F6F /* MVNetworking */,
 				25D6E439234CC91900228788 /* Repository */,
 				25D6E425234CC34E00228788 /* Models */,
 				25F89325234F8D1C005F737B /* PhotoDetails */,
@@ -470,8 +474,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 257E0FDB2355087C00176D99 /* Products */;
-					ProjectRef = 257E0FDA2355087C00176D99 /* MVNetworking.xcodeproj */;
+					ProductGroup = 258DBB86235F9BD000459F6F /* Products */;
+					ProjectRef = 258DBB85235F9BD000459F6F /* MVNetworking.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -483,18 +487,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		257E0FE02355087C00176D99 /* MVNetworking.framework */ = {
+		258DBB95235F9BD000459F6F /* MVNetworking.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MVNetworking.framework;
-			remoteRef = 257E0FDF2355087C00176D99 /* PBXContainerItemProxy */;
+			remoteRef = 258DBB94235F9BD000459F6F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		257E0FE22355087C00176D99 /* MVNetworkingTests.xctest */ = {
+		258DBB97235F9BD000459F6F /* MVNetworkingTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MVNetworkingTests.xctest;
-			remoteRef = 257E0FE12355087C00176D99 /* PBXContainerItemProxy */;
+			remoteRef = 258DBB96235F9BD000459F6F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -694,13 +698,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = PhotoStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.PhotoStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Dev Anypli";
@@ -858,7 +865,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = PhotoStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -885,7 +894,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = PhotoStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
