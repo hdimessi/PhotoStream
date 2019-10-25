@@ -1,0 +1,11 @@
+framework module MVNetworking {
+  umbrella header "MVNetworking.h"
+
+  export *
+  module * { export * }
+}
+
+module MVNetworking.Swift {
+    header "MVNetworking-Swift.h"
+    requires objc
+}
